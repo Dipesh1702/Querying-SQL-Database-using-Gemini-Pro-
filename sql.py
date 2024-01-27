@@ -25,7 +25,7 @@ cursor.execute("""insert into student values('SOHAM','DEVPOS','A',50)""")
 #Display all records
 
 print("inserted all records")
-data=cursor.execute("""select * from students""")
+data=cursor.execute("""select * from student""")
 
 for row in data:
     print(row)
